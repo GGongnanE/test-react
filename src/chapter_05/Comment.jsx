@@ -43,9 +43,9 @@ function Comment(props) {
                 />
             </div>
             <div style={styles.contentContainer}>
-                <span style={styles.nameText}>김길숙</span>
+                <span style={styles.nameText}>{props.name}</span>
                 <span style={styles.commentText}>
-                    This is first comment...
+                    {props.comment}
                 </span>
             </div>
         </div>
